@@ -1,0 +1,233 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+body{
+    text-transform: uppercase;
+}
+
+.promo_bar {
+    background-color: #000;
+    color: #Fff;
+    text-align: center;
+    font-size: 20px;
+    font-family: "OpenSans";
+}
+header {
+    background-color: #0d6cb6;
+    height: 904px;
+    /*background: url("../img/headerBg05.png") no-repeat center ;*/
+    /*background: url("../img/headerBg04(carlu4ka).png") no-repeat center #0d6cb6;*/
+    background: url("../img/headerBg03.png")  no-repeat center center #0d6cb6;
+    /*background: url("../img/headerBg02.png") no-repeat center;*/
+    /*background: url("../img/headerBg01.png") no-repeat center;*/
+}
+ul{
+    list-style: none;
+}
+.logo_menu{
+    background-image: url("../img/bgMenu.png");
+}
+.logo{
+    padding-left: 100px;
+    display: inline-block;
+    float: left;
+}
+
+nav li {
+    float: left;
+    padding: 20px;
+}
+nav a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.cart{
+    float: right;
+}
+.slider_text{
+    color: #fff;
+    position: absolute;
+}
+
+h1 {
+    /*font-family: BRUSHSTRIKE;*/
+    color:  #ffffff;
+    font-size: 149px;/* Приближение из-за подстановки шрифтов */
+    text-align:center;
+
+    text-transform: uppercase;
+}
+
+h2 {
+    /*font-family: BebasNeue;*/
+    color:  #ffffff;
+    font-size: 60px;/* Приближение из-за подстановки шрифтов */
+
+
+    text-align: left;
+    text-transform: uppercase;
+}
+.block2 span {
+    font-size: 50px;
+    padding: 20px 100px;
+    text-transform: uppercase;
+    color: #0c2b6d;
+}
+.block3 {
+    background: #000;
+}
+.block3 div {
+    display: inline-block;
+    padding-left: 200px;
+}
+.block3 span {
+    font-size: 40px;
+    padding: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.block4 {
+    background-color:#f3f3f3;
+    color:#000;
+}
+.game_changer{
+    float: left;
+    margin-left: 100px;
+}
+.videoplayer{
+    float: right;
+    margin-right: 100px;
+}
+.block5 {
+    text-align: center;
+}
+
+.block6 {
+    background: url("../img/block6Bg.png") #0d6cb6 center no-repeat ;
+    width: 1920px;
+    height: 900px;
+}
+.block6 * {
+    text-align: center;
+    margin: 0 auto;
+}
+.block6_photo {
+    padding-top: 100px;
+}
+.block6_text {
+    color: #fff;
+    font-size: 40px;
+}
+/*.block7 {*/
+    /*display: inline-block;*/
+    /*float: left;*/
+/*}*/
+
+.block7_Pic {
+    width: 600px;
+    height: 637px;
+    z-index: 1;
+    position: relative;
+    /*margin: 15px;*/
+}
+.block7_Pic1 {
+    background: url("../img/block7Pic1Bg.png") center bottom no-repeat #000;
+}
+.block7_Pic2 {
+    background: url("../img/block7Pic2Bg.png") center bottom no-repeat #000;
+    left: 610px;
+    bottom: 637px;
+}
+.block7_Pic3 {
+    background: url("../img/block7Pic3Bg.png") center bottom no-repeat #000;
+    left: 1220px;
+    bottom: 1280px;
+}
+
+.heder_pic {
+    height: 86px;
+    z-index: 2;
+}
+.heder_pic1 {
+    background: url("../img/block7Pic1RedHed.png") no-repeat right #e2e4e6;
+}
+.heder_pic2 {
+    background: url("../img/block7Pic2BlueHed.png") no-repeat right #e2e4e6;
+}
+.heder_pic3 {
+    background: url("../img/block7Pic3YellowHed.png") no-repeat right #e2e4e6;
+}
+
+.heder_pic img {
+    margin: 10px 40px;
+}
+.fon_pic  {
+    position: absolute;
+    z-index: 3;
+    top: 215px;
+
+}
+.block7_lines {
+    text-align: right;
+    position: relative;
+    z-index: 4;
+}
+.pic_text {
+    color:#fff;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+    z-index: 5;
+}
+.block7_Buy {
+    background-color:#056ab2;
+
+    text-align: center;
+
+    height:58px;
+
+    position: absolute;
+    width: 601px;
+    bottom: 0px;
+}
+
+.block7_Buy a {
+    display: inline-block;
+    padding: 15px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.block8 {
+    background: url("../img/block8Bg.png") center no-repeat #000;
+    width: 1920px;
+    height: 900px;
+    position: relative;
+    text-align: center;
+}
+.p {
+    color: #fff;
+}
+
+.block9 {
+    text-align: center;
+}
+
+.footer {
+    background-color:#056ab2;
+}
+div {
+    border: 1px solid red;
+
+}
