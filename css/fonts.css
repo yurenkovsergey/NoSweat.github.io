@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Brushstrike";
+    src: url('../fonts/brushstrike.ttf') format('truetype');
+
+}
+
+
+@font-face {
+    font-family: "BebasNeue_Regular";
+    src: url('../fonts/bebasneue_regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "ChunkFive";
+    src: url('../fonts/chunkfive.ttf') format('truetype');
+}
+

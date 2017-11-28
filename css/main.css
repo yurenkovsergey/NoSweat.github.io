@@ -11,36 +11,65 @@
 }
 body{
     text-transform: uppercase;
+    position: relative;
+    width: 100%;
 }
+
 
 .promo_bar {
     background-color: #000;
-    color: #Fff;
     text-align: center;
-    font-size: 20px;
-    font-family: "OpenSans";
+    padding: 20px;
+
+}
+.promo_bar span {
+    color: #fff;
+    font: 20px "OpenSans";
+    letter-spacing: 3px;
+}
+.x-button {
+    float: right;
 }
 header {
     background-color: #0d6cb6;
     height: 904px;
     /*background: url("../img/headerBg05.png") no-repeat center ;*/
     /*background: url("../img/headerBg04(carlu4ka).png") no-repeat center #0d6cb6;*/
-    background: url("../img/headerBg03.png")  no-repeat center center #0d6cb6;
+    background: url("../img/headerBgAll.png")  no-repeat center center #0d6cb6;
     /*background: url("../img/headerBg02.png") no-repeat center;*/
     /*background: url("../img/headerBg01.png") no-repeat center;*/
+    background-size: cover;
 }
 ul{
     list-style: none;
 }
 .logo_menu{
     background-image: url("../img/bgMenu.png");
+    height: 74px;
+    padding-top: 10px;
 }
 .logo{
-    padding-left: 100px;
+    padding-left: 106px;
     display: inline-block;
+    border-right: solid 2px black;
+    padding-right: 20px;
     float: left;
 }
+.flag {
+    float: left;
+    padding: 14px 17px;
 
+}
+
+.cart{
+    float: right;
+    padding: 14px 240px 0 0;
+}
+
+nav {
+    float: right;
+    padding-right: 94px;
+}
 nav li {
     float: left;
     padding: 20px;
@@ -49,71 +78,259 @@ nav a {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
+    font: 22px "OpenSans";
+
 }
-.cart{
-    float: right;
-}
+
 .slider_text{
     color: #fff;
-    position: absolute;
+    text-align:center;
+    padding: 240px 0 0 20px;
+
 }
+
 
 h1 {
-    /*font-family: BRUSHSTRIKE;*/
-    color:  #ffffff;
-    font-size: 149px;/* Приближение из-за подстановки шрифтов */
-    text-align:center;
 
-    text-transform: uppercase;
+    font: 149px "BRUSHSTRIKE";
+    text-transform: lowercase;
+    padding-left: 20px;
 }
-
 h2 {
-    /*font-family: BebasNeue;*/
-    color:  #ffffff;
-    font-size: 60px;/* Приближение из-за подстановки шрифтов */
+    font: 60px "BebasNeue_Regular";
+}
+
+.arrows {
+    text-align: right;
+    padding-right: 600px;
+
+}
+.arrows .left {
+    display: inline-block;
+    padding-right: 25px;
+    border-right: solid 1px #000;
+    margin-right: 20px;
+}
 
 
-    text-align: left;
-    text-transform: uppercase;
+/*<--------BLOCK__2-------->*/
+.block2  {
+    /*width: 100%;*/
+    font-weight: bold;
+    background: #fff;
+    height: 140px;
+    padding-top: 68px;
+    padding-left: 70px;
 }
-.block2 span {
-    font-size: 50px;
-    padding: 20px 100px;
-    text-transform: uppercase;
-    color: #0c2b6d;
+.block2_text {
+    float: left;
+    padding-right: 64px;
 }
+.block2 h2 {
+    text-align: center;
+    font: 47px "OpenSansBold", sans-serif;
+    font-weight: 800;
+    background: -webkit-linear-gradient(right, #0e1555, #056cb6);
+    background: -o-linear-gradient(right, #0e1555, #056cb6);
+    background: -moz-linear-gradient(right, #0e1555, #056cb6);
+    background: linear-gradient(to right, #0e1555, #056cb6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.block2 img {
+    float: left;
+    padding-right: 10px;
+    height: 64px;
+    width: 64px;
+}
+.block2 p {
+    float: left;
+    width: 155px;
+    padding-right: 38px;
+    padding-top: 15px;
+    text-transform: capitalize;
+    font: 19px "OpenSans";
+}
+
+
+/*<--------BLOCK__3-------->*/
 .block3 {
     background: #000;
+    padding-left: 100px;
+    height: 210px;
+    /*width: 100%;*/
 }
-.block3 div {
-    display: inline-block;
-    padding-left: 200px;
+.block3_icon1 {
+    float: left;
+    padding-left: 100px;
+    padding-right: 25px;
+    padding-top: 32px;
 }
-.block3 span {
-    font-size: 40px;
-    padding: 20px;
-    text-transform: uppercase;
+.block3_icon2 {
+    float: left;
+    padding-left: 115px;
+    padding-right: 30px;
+    padding-top: 12px;
+}
+.block3_icon3 {
+    float: left;
+    padding-left: 80px;
+    padding-right: 20px;
+    padding-top: 12px;
+}
+.block3 p {
+    float: left;
+    padding: 71px 60px 0 0px;
+    letter-spacing: 4px;
     color: #fff;
+    font: 45px "OpenSansExtraBold", sans-serif;
+    font-weight: 700;
 }
+.block3 img {
+    padding: 30px 0;
+}
+
+
+/*<--------BLOCK__4-------->*/
 .block4 {
     background-color:#f3f3f3;
     color:#000;
+    /*width: 100%;*/
+    height: 806px;
 }
-.game_changer{
-    float: left;
+.game_changer h2{
+    text-align: left;
+    padding: 43px 0 6px 95px;
     margin-left: 100px;
+    width: 30%;
+    font: 60px "OpenSansBold", sans-serif;
+    font-weight: 800;
+    background: -webkit-linear-gradient(right, #0e1555, #056cb6);
+    background: -o-linear-gradient(right, #0e1555, #056cb6);
+    background: -moz-linear-gradient(right, #0e1555, #056cb6);
+    background: linear-gradient(to right, #0e1555, #056cb6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.videoplayer{
-    float: right;
-    margin-right: 100px;
-}
-.block5 {
-    text-align: center;
+.block4_content {
+    display: inline-block;
+    width: 100%;
+    height: 540px;
+    /*margin-left: 100px;*/
 }
 
+.block4_info {
+    padding-left: 100px;
+    width: 29%;
+    float: left;
+}
+.block4_info h3 {
+    font: 19px "OpenSansBold", sans-serif;
+    padding-bottom: 40px;
+    padding-top: 4px;
+    letter-spacing: 4px;
+    font-weight: 700;
+
+}
+.block4_info p {
+    font: 16px "OpenSans-Regular";
+    padding-bottom: 8px;
+
+}
+.sale {
+    margin-top: 33px ;
+    color: #056cb6;
+    text-transform:none;
+    border-left: solid 5px #e1e1e1;
+    font: 34px "OpenSans-Regular";
+    padding-bottom: 13px;
+    padding-top: 16px;
+    padding-left: 20px;
+    /*letter-spacing: 1px;*/
+    line-height: 40px;
+}
+.block4_Shop_Now {
+    border: solid 2px #056cb6;
+    border-radius: 60px;
+    padding: 34px;
+    margin: 37px 205px 0 0;
+    font: 28px "OpenSans";
+    text-align: center;
+}
+.block4_flag {
+    margin-top: 47px;
+    margin-left: 31px;
+}
+
+.videoplayer{
+    float: left;
+    height: 540px;
+    width: 60%;
+}
+
+
+/*<--------BLOCK__5-------->*/
+.block5 {
+    text-align: center;
+    height: 638px;
+    padding-top: 130px;
+}
+
+.block5_9_text h2 {
+    text-align: center;
+    font: 58px "OpenSansBold", sans-serif;
+    font-weight: 800;
+    background: -webkit-linear-gradient(right, #0e1555, #056cb6);
+    background: -o-linear-gradient(right, #0e1555, #056cb6);
+    background: -moz-linear-gradient(right, #0e1555, #056cb6);
+    background: linear-gradient(to right, #0e1555, #056cb6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.block5_9_icons {
+    margin-top: 60px;
+    padding-right: 50px;
+}
+.block5_9_icon1 {
+    padding: 20px 30px 3px 90px;
+}
+
+.block5_9_icon2 {
+    padding-right: 43px;
+    padding-top: 0;
+    padding-bottom: 46px;
+}
+
+.block5_9_icon3 {
+    padding-right: 18px;
+    padding-top: 0;
+    padding-bottom: 24px;
+}
+
+.block5_9_icon4 {
+    padding-right: 17px;
+    padding-top: 0;
+    padding-bottom: 16px;
+}
+
+.block5_9_icon5 {
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 28px;
+}
+.points {
+    margin-top: 124px;
+    margin-left: 20px;
+}
+.point {
+    padding-right: 10px;
+}
+
+
+/*<--------BLOCK__6-------->*/
 .block6 {
     background: url("../img/block6Bg.png") #0d6cb6 center no-repeat ;
-    width: 1920px;
+    width: 1900px;
     height: 900px;
 }
 .block6 * {
@@ -121,36 +338,47 @@ h2 {
     margin: 0 auto;
 }
 .block6_photo {
-    padding-top: 100px;
+    padding-top: 130px;
+    padding-right: 10px;
 }
 .block6_text {
     color: #fff;
-    font-size: 40px;
+    font: 36px "OpenSansBold", sans-serif;
+    font-weight: 800;
 }
-/*.block7 {*/
-    /*display: inline-block;*/
-    /*float: left;*/
-/*}*/
+.block6_pictures img {
+    padding: 7px 5px;
+}
+
+
+/*<--------BLOCK__7-------->*/
+.block7 {
+    width: 1900px;
+    height: 900px;
+    position: relative;
+}
 
 .block7_Pic {
     width: 600px;
     height: 637px;
     z-index: 1;
-    position: relative;
+    position: absolute;
     /*margin: 15px;*/
 }
 .block7_Pic1 {
     background: url("../img/block7Pic1Bg.png") center bottom no-repeat #000;
+    left: 16px;
+    top: 122px;
 }
 .block7_Pic2 {
     background: url("../img/block7Pic2Bg.png") center bottom no-repeat #000;
-    left: 610px;
-    bottom: 637px;
+    left: 659px;
+    top: 122px;
 }
 .block7_Pic3 {
     background: url("../img/block7Pic3Bg.png") center bottom no-repeat #000;
-    left: 1220px;
-    bottom: 1280px;
+    left: 1300px;
+    top: 122px;
 }
 
 .heder_pic {
@@ -174,7 +402,6 @@ h2 {
     position: absolute;
     z-index: 3;
     top: 215px;
-
 }
 .block7_lines {
     text-align: right;
@@ -183,19 +410,17 @@ h2 {
 }
 .pic_text {
     color:#fff;
-    font-size: 50px;
+    font: 58px "ChunkFive", sans-serif;
     text-align: center;
     position: relative;
     bottom: 80px;
     z-index: 5;
+    font-weight: 500
 }
 .block7_Buy {
     background-color:#056ab2;
-
     text-align: center;
-
     height:58px;
-
     position: absolute;
     width: 601px;
     bottom: 0px;
@@ -204,30 +429,180 @@ h2 {
 .block7_Buy a {
     display: inline-block;
     padding: 15px;
-    font-size: 25px;
+    font: 28px "OpenSans-Regularpen", sans-serif;
     text-decoration: none;
     color: #fff;
 }
 
+
+/*<--------BLOCK__8-------->*/
 .block8 {
     background: url("../img/block8Bg.png") center no-repeat #000;
-    width: 1920px;
+    width: 1900px;
     height: 900px;
     position: relative;
     text-align: center;
 }
-.p {
+.block8_text {
+    text-align: center;
+    padding-left: 0px;
+    padding-top: 250px;
+}
+.block8 h2 {
+    color: #fff;
+    font: 61px "OpenSansExtraBold", sans-serif;
+    letter-spacing: 3px;
+    padding-top: 41px;
+
+    font-weight: 600;
+
+}
+.block8 p {
+
+    padding: 13px 90px 25px 0;
+    color: #fff;
+    font: 20px "OpenSansBold", sans-serif;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+.block8_play {
+    padding-top: 30px;
+    padding-right: 44px;
+}
+
+
+
+/*<--------BLOCK__9-------->*/
+.block9 {
+    text-align: center;
+    height: 588px;
+    padding-top: 84px;
+}
+
+
+/*<--------footer-------->*/
+footer {
+    display: block;
+    /*width: 100%;*/
+    color: #fff;
+    background: #096cb6;
+    height: 390px;
+    padding-left: 390px;
+    padding-top: 97px;
+    /*padding-right: 150px;*/
+    /*margin-right: 100px;*/
+    text-transform: none;
+}
+
+.foofooter_block1 {
+    width: 100%;
+    color: #fff;
+    background: #096cb6;
+    padding-bottom: 0;
+    padding-left: 90px;
+
+}
+
+.footer_block1 {
+    float: left;
+    width: 24%;
+    padding-right: 10px;
+}
+
+.footer_block1 h2 {
+    width: 100%;
+    font: 18px "OpenSansBold", sans-serif;
+    padding-right: 400px;
+    letter-spacing: 5px;
+    padding-bottom: 5px;
+}
+
+.footer_block1 h3 {
+    width: 100%;
+    font: 15px "OpenSans-Regular", sans-serif;
+    padding-right: 400 px;
+    padding-bottom: 28px;
+}
+
+.footer_menu {
+    float: left;
+    width: 13%;
+    font: 10pt "OpenSans-Regular", sans-serif;
+    padding-right: 400 px;
+    padding-left: 180 px;
+}
+.footer_menu a {
+    text-decoration: none;
     color: #fff;
 }
 
-.block9 {
-    text-align: center;
+.footer_menu ul li {
+    list-style: none;
+    padding-bottom: 15px;
 }
 
-.footer {
-    background-color:#056ab2;
+.contact_info {
+    float: left;
+    display: block;
+    width: 35%;
+    padding-bottom: 14px;
 }
-div {
-    border: 1px solid red;
+
+.contact_info_block2 {
+    float: left;
+    padding-bottom: 40px;
+}
+
+.contact_info_table {
+    float: left;
+    display: flex;
+    width: 100%;
+}
+
+.contact_info h2 {
+    font: 11pt "OpenSansBold", sans-serif;
+    padding-bottom: 10px;
+}
+
+.contact_info h3 {
+    font: 10pt "OpenSans-Regular", sans-serif;
+    padding-right: 11px;
+}
+
+.copyright {
+    float: left;
+    height: 74px;
+    display: flex;
+    justify-content: space-between;
+    width: 1147px;
+    font: 10pt "OpenSans-Regular", sans-serif;
+    padding-top: 10px;
+    padding-left: 0px;
+    border-top: solid 1px #3182c1;
+}
+
+.copyright ul li {
+    list-style: none;
+    display: inline;
+    padding: 0 10px 16px;
+    color: #fff;
+    float: right;
+}
+
+
+
+
+
+
+
+i {
+    font-style: italic;
+}
+sup {
+    font-size: 10px;
+}
+* {
+    /*border: 1px solid red;*/
 
 }
+
